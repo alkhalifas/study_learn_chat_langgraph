@@ -1,0 +1,65 @@
+
+id: dmaic
+title: DMAIC
+description: Learn the DMAIC methodology in five steps
+steps:
+  - name: Define (1/5)
+    goals:
+      - State the problem clearly with scope, impact, and stakeholders
+      - Identify CTQs (Critical to Quality) and Voice of Customer
+      - Draft a clear project charter
+    best_practices:
+      - Write a measurable problem statement with baseline and target
+      - Keep scope tight to avoid gold-plating
+      - List stakeholders and obtain alignment
+    prompts_for_user:
+      - "Write your one-sentence problem statement (who, what, impact)."
+      - "List 3 stakeholders and their needs."
+  - name: Measure (2/5)
+    goals:
+      - Establish baseline metrics and data collection plan
+      - Validate measurement system
+      - Define operational definitions
+    best_practices:
+      - Use a simple data dictionary (field, source, owner)
+      - Ensure data quality checks are in place
+      - Collect enough samples to represent variation
+    prompts_for_user:
+      - "List 2–3 key metrics with current baseline values."
+      - "Describe how you will collect data and how often."
+  - name: Analyze (3/5)
+    goals:
+      - Identify root causes and contributing factors
+      - Use graphical/analytical tools to explore variation
+      - Prioritize causes for action
+    best_practices:
+      - Use Pareto thinking (vital few vs trivial many)
+      - Validate causes with data, not opinion
+      - Document assumptions and unknowns
+    prompts_for_user:
+      - "List suspected root causes and why you think they matter."
+      - "What data or evidence supports each?"
+  - name: Improve (4/5)
+    goals:
+      - Generate and test countermeasures
+      - Run pilots and evaluate impact on metrics
+      - Address risks and change management
+    best_practices:
+      - Pilot small, learn fast, iterate
+      - Involve process owners early
+      - Define acceptance criteria before the test
+    prompts_for_user:
+      - "Describe your top improvement idea and how you will pilot it."
+      - "What risks might derail it, and how will you mitigate them?"
+  - name: Control (5/5)
+    goals:
+      - Lock in gains with SOPs, training, and dashboards
+      - Define monitoring and response plans
+      - Handoff ownership
+    best_practices:
+      - Create a simple control plan (metric, threshold, owner, action)
+      - Document the new standard work
+      - Schedule audits or health checks
+    prompts_for_user:
+      - "Describe your control plan: metric, threshold, owner, action."
+      - "What training or documentation is needed?"

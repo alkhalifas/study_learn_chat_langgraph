@@ -1,0 +1,49 @@
+
+id: 5whys
+title: 5 Whys
+description: Learn the 5 Whys root cause technique
+steps:
+  - name: Problem Statement
+    goals:
+      - State the problem objectively
+      - Define scope and impact
+    best_practices:
+      - Avoid blame
+      - Include when/where observed
+    prompts_for_user:
+      - "Write your problem statement in one sentence."
+  - name: Why #1
+    goals:
+      - Ask the first why to move beyond symptoms
+    best_practices:
+      - Keep it factual, not speculative
+    prompts_for_user:
+      - "Why did the problem occur?"
+  - name: Why #2
+    goals:
+      - Dig deeper into causal chain
+    best_practices:
+      - Validate with evidence where possible
+    prompts_for_user:
+      - "Why did that happen?"
+  - name: Why #3
+    goals:
+      - Continue exploring cause
+    best_practices:
+      - Consider process/system factors
+    prompts_for_user:
+      - "Why did that happen?"
+  - name: Why #4
+    goals:
+      - Approach potential root causes
+    best_practices:
+      - Look for controls that failed
+    prompts_for_user:
+      - "Why did that happen?"
+  - name: Why #5 (Root Cause)
+    goals:
+      - Identify root cause(s)
+    best_practices:
+      - Ensure actionability
+    prompts_for_user:
+      - "State the most likely root cause."

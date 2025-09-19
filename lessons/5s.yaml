@@ -1,0 +1,50 @@
+
+id: 5s
+title: 5S
+description: Learn 5S for workplace organization
+steps:
+  - name: Sort
+    goals:
+      - Remove unnecessary items
+      - Tag and disposition clutter
+    best_practices:
+      - Use red-tag events
+      - Define criteria for disposal
+    prompts_for_user:
+      - "List items to remove and why."
+  - name: Set in Order
+    goals:
+      - Arrange needed items for easy use
+      - Label locations and establish order
+    best_practices:
+      - Use shadow boards and labels
+      - Keep frequently used items closest
+    prompts_for_user:
+      - "Describe your storage layout and labels."
+  - name: Shine
+    goals:
+      - Clean the workspace and equipment
+      - Detect abnormalities early
+    best_practices:
+      - Create daily cleaning checklists
+      - Assign responsibilities
+    prompts_for_user:
+      - "What will your daily cleaning checklist include?"
+  - name: Standardize
+    goals:
+      - Establish visual standards and routines
+      - Keep consistency across shifts/teams
+    best_practices:
+      - Post standard work instructions
+      - Audit on a regular cadence
+    prompts_for_user:
+      - "Write 2 standard work rules for your team."
+  - name: Sustain
+    goals:
+      - Build habits and accountability
+      - Continuously improve
+    best_practices:
+      - Celebrate wins
+      - Rotate audit responsibility
+    prompts_for_user:
+      - "How will you keep 5S alive after week 1?"
